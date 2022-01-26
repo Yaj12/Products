@@ -47,7 +47,7 @@ a {
   border: none;
 }
 
-products-header-container{
+.products-header-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,3 +96,4 @@ td{
 td:last-child{
   text-align: right;
 }
+
