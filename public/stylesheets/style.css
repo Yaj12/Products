@@ -97,3 +97,105 @@ td:last-child{
   text-align: right;
 }
 
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-itmes: center;
+}
+
+.product-actions {
+  display: flex;
+}
+
+.product-actions .button {
+  margin-right: 16px;
+}
+
+.reviews {
+  margin-top: 64px;
+}
+
+.reviews-header {
+  font-size: 18px;
+  color: #111827;
+}
+
+.product-name {
+  font-size: 20px;
+  color: #111827;
+}
+
+.product-description {
+  width: 80ch;
+}
+
+review-panel {
+  margin: 32px 0;
+  width: 600px;
+}
+
+.review-panel-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+}
+
+.customer-name {
+  font-weight: bold;
+  margin-right: 16px;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.subject {
+  margin-right: 16px;
+  color: #4B5563;
+  margin-bottom: 16px;
+}
+
+.review-content {
+  color: #111827;
+}
+
+.review-actions{
+  margin-left: auto;
+}
+
+.review-actions a{
+  margin-right: 16px;
+}
+
+label {
+  color: #374151;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.form-input {
+  margin-bottom: 16px;
+}
+
+.form-input, .form-input textarea, .form-input select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: none;
+  border: 1px solid #9CA3AF;
+  background: white;
+}
+
+
+.form-input input:focus, .form-input textarea:focus,
+.form-input textarea:focus {
+  border: 1px solid #A5F3FC;
+  box-shadow: 0 0 3px 2px #2203EE;
+}
+
+.form-buttons {
+  display: flex;
+}
